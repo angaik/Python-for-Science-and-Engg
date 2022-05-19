@@ -2,7 +2,7 @@
 import numpy as np
 import numint
 
-# Numerical Integration of f(x) = x^4 + 8*x^3 - 5*x^2 + 9*x - 41 between 0 & 5 with step size of 0.1
+# Numerical Integration of f(x) = x^3 between 0 & 5 with step size of 0.1
 f=lambda x:x**3
 x_start=0
 x_end=5
