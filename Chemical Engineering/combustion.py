@@ -6,7 +6,7 @@ import chemCalc
 
 LHV={'Carbon monoxide':10.1,'Methane':50,'Hydrogen':120} # LHV in MJ/kg
 MW=np.array([28,44,2,32,28,16])   # MW in kg/kmol according to order of inlet_components list.
-tot_kmol=47    # kmol
+tot_kmol=47    # kmol 
 
 # Inlet composition in mol fraction (0-100%)
 inlet_components=['Carbon monoxide','Carbon dioxide','Hydrogen','Oxygen','Nitrogen','Methane']
