@@ -1,0 +1,9 @@
+# Byte-compiled / optimized files
+__pycache__/
+
+# Python environments
+pyenv/
+pyver/
+
+# Data input-output files
+*.xlsx
