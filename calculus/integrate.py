@@ -67,7 +67,7 @@ def comp_simpson_13(x_start,x_end,step_size,f):
     result = 0
     x_init = x_start
     while x_init <= x_end:
-        x_next = x_init + step_size
+        x_next = x_init + 2 * step_size
         result += simpson_13(x_init,x_next,step_size,f)
         x_init = x_next
     return result
